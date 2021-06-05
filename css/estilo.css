@@ -1,0 +1,12 @@
+
+/* FONTES */
+
+@font-face{
+    font-family: GothamMedium;
+    src: url(../fonts/GothamMedium.otf);
+}
+
+@font-face{
+    font-family: GothamRegular;
+    src: url(../fonts/GothamBookRegular.otf);
+}
