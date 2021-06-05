@@ -10,3 +10,7 @@
     font-family: GothamRegular;
     src: url(../fonts/GothamBookRegular.otf);
 }
+
+body{
+    font-family: 'GothamMedium', Helvetica, sans-serif;
+}
