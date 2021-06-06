@@ -88,6 +88,7 @@ main .modal-info h1{
     margin: 0;
     color: #393c41;
     font-size: 40px;
+    font-weight: normal;
 }
 
 main .modal-info p{
@@ -97,8 +98,15 @@ main .modal-info p{
 
 main .modal-info a{
     color: #5c5e62;
+    text-decoration: none;
+    border-bottom: solid 1px black;
+    box-shadow: 0 5px 5px -3px rgb(0, 0, 0, 0.5);
+    transition: border-bottom 500ms;
 }
 
 main .modal-info a:hover{
-    text-decoration: black;
+    border-bottom: solid 2.5px black;
+    box-shadow: none;
 }
+
+
