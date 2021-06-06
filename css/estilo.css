@@ -93,7 +93,7 @@ main .modal-info h1{
 
 main .modal-info p{
     margin-top: 12px;
-    color: #5c5e62;
+    color: gray;
 }
 
 main .modal-info a{
@@ -179,4 +179,11 @@ footer .seta-area img{
     animation-iteration-count: infinite;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px){
+    header .menu-mediun{
+        display: none;
+    }
+}
 
