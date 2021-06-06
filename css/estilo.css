@@ -63,7 +63,7 @@ header .menu-right li{
     margin: 0 10px;
 }
 
-header .menu-right .menu{
+header .menu-right img{
     width: 20px;
 }
 
@@ -184,6 +184,15 @@ footer .seta-area img{
 @media (max-width: 1200px){
     header .menu-mediun{
         display: none;
+    }
+
+    header .menu-right{
+        visibility: hidden;
+    }
+
+    header .menu-right .menu{
+        visibility: visible;
+        margin-right: 20px;
     }
 }
 
