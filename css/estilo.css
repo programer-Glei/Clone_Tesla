@@ -109,4 +109,43 @@ main .modal-info a:hover{
     box-shadow: none;
 }
 
+/* FOOTER */
+
+footer{
+    border: solid 1px red;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.botoes-area{
+    display: flex;
+}
+
+footer .botoes-area div{
+    width: 256px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    border-radius: 20px;
+    opacity: 1;
+    background-color: #171a20;
+    cursor: pointer;
+}
+
+footer .botoes-area a{
+    text-decoration: none;
+}
+
+footer .botoes-area .venda{
+    color: white;
+}
+
 
