@@ -112,14 +112,13 @@ main .modal-info a:hover{
 /* FOOTER */
 
 footer{
-    height: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 30px;
 }
 
 .botoes-area{
@@ -193,6 +192,21 @@ footer .seta-area img{
     header .menu-right .menu{
         visibility: visible;
         margin-right: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    footer .botoes-area{
+        flex-direction: column;
+    }
+
+    footer .botoes-area #inventario{
+        margin-left: initial;
+        margin-top: 20px;
+    }
+
+    footer .botoes-area div{
+        width: calc(100vw - 30px);
     }
 }
 
