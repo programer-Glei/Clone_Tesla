@@ -24,6 +24,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 header ul, header li{
@@ -33,6 +37,7 @@ header ul, header li{
 header .logo{
     width: 120px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 header .menu-mediun ul{
@@ -47,6 +52,7 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    cursor: pointer;
 }
 
 header .menu-right ul{
@@ -59,4 +65,40 @@ header .menu-right li{
 
 header .menu-right .menu{
     width: 20px;
+}
+
+/* MAIN */
+
+main{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+main .modal-info{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .modal-info h1{
+    margin: 0;
+    color: #393c41;
+    font-size: 40px;
+}
+
+main .modal-info p{
+    margin-top: 12px;
+    color: #5c5e62;
+}
+
+main .modal-info a{
+    color: #5c5e62;
+}
+
+main .modal-info a:hover{
+    text-decoration: black;
 }
