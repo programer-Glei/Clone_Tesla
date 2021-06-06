@@ -13,7 +13,50 @@
 
 body{
     font-family: 'GothamMedium', Helvetica, sans-serif;
+    font-size: 14px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul, header li{
+    list-style: none;
+}
+
+header .logo{
+    width: 120px;
+    margin-left: 20px;
+}
+
+header .menu-mediun ul{
+    display: flex;
+}
+
+header .menu-mediun li{
+    margin: 0 10px;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header .menu-right ul{
+    display: flex;
+}
+
+header .menu-right li{
+    margin: 0 10px;
+}
+
+header .menu-right .menu{
+    width: 20px;
 }
