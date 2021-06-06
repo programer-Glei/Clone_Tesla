@@ -112,7 +112,6 @@ main .modal-info a:hover{
 /* FOOTER */
 
 footer{
-    border: solid 1px red;
     height: 100px;
     display: flex;
     align-items: center;
@@ -133,7 +132,6 @@ footer .botoes-area div{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 18px;
     border-radius: 20px;
     opacity: 0.6;
     background-color: #171a20;
@@ -142,6 +140,7 @@ footer .botoes-area div{
 
 footer .botoes-area #inventario{
     background-color: white;
+    margin-left: 18px;
 }
 
 footer .botoes-area a{
@@ -154,6 +153,30 @@ footer .botoes-area .venda{
 
 footer .botoes-area .existe{
     color: black;
+}
+
+@keyframes seta{
+    0%{
+        margin-top: 0px;
+    }
+    50%{
+        margin-top: 15px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+footer .seta-area{
+    margin-top: 20px;
+    height: 30px;
+}
+
+footer .seta-area img{
+    height: 15px;
+    animation-name: seta;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 
